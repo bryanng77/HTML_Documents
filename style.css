@@ -140,3 +140,107 @@ h3{
 .projects-col:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
+
+/* Educational Journey */
+
+.educational-background{
+    text-align: center;
+    margin: auto;
+    width: 85%; 
+}
+
+.educational-background h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.educational-background p {
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.education-col{
+    flex-basis: 24%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.education-col img{
+    width: 95%;
+}
+
+/* This layer creation portion is required for the hover below */
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(255, 99, 71, 0.2);
+}
+
+/* Quotes Section*/
+.quote-section img{
+    width: 7%;
+    margin-top: 120px;
+}
+
+.quote-section{
+    text-align: center;
+    margin: auto;
+}
+
+.background-image{
+    background-image: url(thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.quote-section h1{
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.quote-section p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 100px 0;
+}
+
+/* Footer */
+ .footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+ }
+
+ .footer h1 {
+    font-weight: 400;
+    padding: 20px 0;
+ }
+
+.icons .fa{
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 18px 0;
+    color: black;
+ }
+
+ .ending{
+    text-align: center;
+    padding: 10px;
+ }
